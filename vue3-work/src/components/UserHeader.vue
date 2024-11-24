@@ -13,7 +13,7 @@
                     <li><RouterLink to="/schedule" active-class="active">日程</RouterLink></li>
                     <li><RouterLink to="/write" active-class="active">写作</RouterLink></li>
                     <li><RouterLink to="/land" active-class="active">登录</RouterLink></li>
-                    <!-- <li><RouterLink to="/register" active-class="active">登录/注册</RouterLink></li> -->
+                    <li><RouterLink to="/register" active-class="active">注册</RouterLink></li>
                 </ul>
             </div>
         </div>
@@ -58,7 +58,7 @@ body {
 
 #app .UserHeader .logo{
     width:600px;
-    
+
     height: 100%;
     padding: 0 20px;
     margin-left: 10px;
@@ -78,7 +78,7 @@ body {
     justify-content:flex-end;
     align-items: end;
     margin-top: 10px;
-    border-radius: 5px; 
+    border-radius: 5px;
     /* background-color:bisque; */
 }
 
